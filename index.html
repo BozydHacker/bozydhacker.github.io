@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body, html {
+  margin: 0;
+  font-family: Roboto !important;
+  color: rgb(94, 255, 0);
+  background-image: url('back.gif');
+  background-attachment:fixed;
+  background-size: cover;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-color: rgb(16, 15, 16);
+}
+@keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+  /* Calls the slideInFromTop animation */
+#flicker {  
+  animation-name: flicker;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: alternate;
+}
+    </style>
+</head>
+<body>
+
+  <div style="background-color: rgb(2, 2, 2); position: relative; padding: 0.1vw;" id="flicker">
+<h1 style="text-align: center; font-size: 3vw;">ELO POMELO</h1>
+</div>
+<img src= "https://i.ytimg.com/vi/fqV9qVnun3M/maxresdefault.jpg" style="position: relative;" class="center" id="flicker"></img>
+<p style="text-align: center; font-size: 4vw; position: relative;" id="flicker">hejter hejter kogo my tu mamy</p>
+
+</body>
+</html>
