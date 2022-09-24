@@ -1,0 +1,85 @@
+body{
+    color: white;
+    background-image: url("back.png");
+    background-color: rgb(22, 22, 22);
+    font-family: Roboto;
+    font-size: 60px;
+    margin: auto;
+}
+#main{
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+    animation: FadeIn 0.5s;
+}
+#text{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-size: 8vw;
+    animation: FadeIn 0.8s
+}
+.btn{
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 5vw;
+    position: relative;
+    bottom: -4vh;
+    opacity: 70%;
+    transition: 0.5s;
+    border-radius: 1.2vw;
+    border-width: 0;
+    font-size: 2vw;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 173, 86);
+    cursor: pointer;
+    animation: FadeInBTN 0.8s;
+}
+.btn:hover{
+    opacity: 100%;
+}
+.discord{
+    background-color: #5865F2;
+    bottom: -6vh;
+}
+.tiktok{
+    background-color: #FE2C55;
+    bottom: -8vh;
+}
+#img{
+    width: 15vw;
+    margin: auto;
+    display: block;
+    position: relative;
+    animation: FadeIn 0.8s
+}
+#nah{
+    margin: 0;
+    left: 44.5%;
+    top: 8vw;
+    position: relative;
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nah:hover{
+    opacity: 0.1;
+}
+
+@keyframes FadeIn {
+    from {opacity: 0; bottom: 10vh}
+    to {opacity: 1; bottom: 0}
+  }
+@keyframes FadeInBTN {
+    from {opacity: 0; bottom: 10vh}
+    to {opacity: 0.7;}
+  }
