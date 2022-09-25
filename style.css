@@ -1,0 +1,118 @@
+body{
+    color: white;
+    background-image: url("back.png");
+    background-color: rgb(22, 22, 22);
+    font-family: Roboto;
+    font-size: 60px;
+    margin: auto;
+}
+#main{
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+    margin: auto;
+    animation: FadeIn 0.5s;
+}
+#text{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-size: 8vw;
+    animation: FadeIn 0.8s
+}
+.btn{
+    margin: auto;
+    display: block;
+    height: 10%;
+    position: relative;
+    bottom: -4vh;
+    opacity: 70%;
+    transition: 0.5s;
+    border-radius: 1.2vw;
+    border-width: 0;
+    font-size: 4vh;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 173, 86);
+    cursor: pointer;
+    animation: FadeInBTN 0.8s;
+}
+.btn:hover{
+    opacity: 100%;
+}
+.discord{
+    background-color: #5865F2;
+    bottom: -6vh;
+}
+.tiktok{
+    background-color: #FE2C55;
+    bottom: -8vh;
+}
+#img{
+    margin: auto;
+    width: 15vw;
+    display: block;
+    position: relative;
+    animation: FadeIn 0.8s
+}
+#nah{
+    margin: 0;
+    left: 44.5%;
+    top: 8vw;
+    position: relative;
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nah:hover{
+    opacity: 0.1;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+@keyframes FadeIn {
+    from {opacity: 0; bottom: 10vh}
+    to {opacity: 1; bottom: 0}
+  }
+@keyframes FadeInBTN {
+    from {opacity: 0; bottom: 10vh}
+    to {opacity: 0.7;}
+  }
