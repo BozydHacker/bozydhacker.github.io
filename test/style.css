@@ -1,0 +1,91 @@
+.island{
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 60px;
+    margin: auto;
+    transition: 0.3s;
+    transition-timing-function: ease;
+    position: relative;
+    top: 6px;
+}
+.island:hover{
+    background-color: black;
+    height: 180px;
+    width: 450px;
+    border-radius: 60px;
+}
+.img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: ease 0.3s;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+.island:hover .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+    top: 30px
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    transition: ease 0.3s;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    opacity: 0;
+    line-height: 12px;
+}
+.island:hover h1{
+    opacity: 1;
+    position: relative;
+    bottom: 60px;
+    left: 130px;
+}
+.pasek{
+   background-color: rgb(68, 68, 68);
+   width: 80%;
+   height: 6px;
+   border-radius: 60px;
+   margin: auto;
+   opacity: 0;
+   transition: ease 0.3s;
+   position: relative;
+   bottom: 85px;
+}
+.island:hover .pasek{
+    opacity: 1;
+    position: relative;
+    bottom: 10px;
+}
+.pasek2{
+    background-color: white;
+    width: 40%;
+    height: 6px;
+    border-radius: 60px;
+    margin: auto;
+    opacity: 0;
+    transition: ease 0.3s;
+    position: relative;
+    float: left;
+}
+.island:hover .pasek2{
+     opacity: 1;
+}
+main{
+    background-color: white;
+    height: 95vh;
+    width: 25%;
+    margin: auto;
+    border-radius: 60px;
+}
+body{
+    background-color: black;
+}
