@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-family: Arial;
+}
+header{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 40px rgb(15, 15, 15);
+    z-index: 2;
+}
+header img{
+    height: 80%;
+}
+header h1{
+    padding: 10px;
+}
+header nav{
+    width: 85%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    font-size: 1.2em;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    background: none;
+}
+nav ul li a{
+    padding: 20px;
+}
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 145, 28);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+main{
+    margin: auto;
+    animation: FadeIn 0.5s;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+main h1{
+    font-size: 8em;
+}
+main p{
+    font-size: 2em;
+}
+article{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 250px;
+}
+article section a{
+    padding: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: .7;
+    transition: 0.5s;
+    border-radius: 30px;
+    border: solid 10px rgb(255, 145, 28);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+article section a:hover{
+    opacity: 100%;
+    background-color: rgb(255, 145, 28);
+
+}
+.discord{
+    border: solid 10px #5865F2;
+}
+.tiktok{
+    border: solid 10px #FE2C55;
+}
+.discord:hover{
+    background-color: #5865F2;
+}
+.tiktok:hover{
+    background-color: #FE2C55;
+}
+article section{
+    padding: 20px;
+}
+.thumbnail{
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.thumbimg{
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    border-radius: 40px;
+    background-position: center;
+    background-color: white;
+    text-align: center;
+    line-height: 600px;
+    transition: .3s;
+    transform-origin: center;
+}
+.box{
+    background-image: url("../img/boxpvp.png");
+}
+.mini{
+    background-image: url("../img/minibox.png");
+}
+.thumbimg h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.thumbimg:hover{
+    width: 1100px;
+    line-height: 550px;
+    cursor: pointer;
+}
+.menu{
+    padding-bottom: 200px;
+}
+.icon{
+    padding: 60px;
+    padding-bottom: 100px;
+    opacity: .7;
+    transition: .3s;
+}
+.icon:hover{
+    opacity: 1;
+}
+article a:hover{
+    background-color: rgb(22, 22, 22);
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 40px rgb(15, 15, 15);
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(12, 12, 12);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(31, 31, 31);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(73, 73, 73);
+}
+/* Nahciak */
