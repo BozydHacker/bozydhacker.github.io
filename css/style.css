@@ -16,6 +16,8 @@ header{
     width: 100%;
     box-shadow: 0px 0px 40px rgb(15, 15, 15);
     z-index: 2;
+    animation: FadeIn .8s ease;
+
 }
 header img{
     height: 80%;
@@ -66,6 +68,7 @@ main{
     text-align: center;
     line-height: 40px;
     width: 100%;
+    animation: FadeIn .8s ease;
 }
 main h1{
     font-size: 8em;
@@ -161,9 +164,6 @@ article section{
 .icon:hover{
     opacity: 1;
 }
-article a:hover{
-    background-color: rgb(22, 22, 22);
-}
 footer{
     background-color: rgb(15, 15, 15);
     height: 60px;
@@ -184,5 +184,9 @@ footer{
 }
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(73, 73, 73);
+}
+@keyframes FadeIn{
+    from {opacity: 0; padding-top: 5px;}
+    to {opacity: 1;}
 }
 /* Nahciak */
