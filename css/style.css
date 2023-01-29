@@ -75,9 +75,8 @@ main{
     color: #2a1c0c;
 }
 .mc{
-    color: transparent;
-    background: linear-gradient(95deg, #FF8600, #ffb74c);
-    background-clip: text;
+    color: #FF8600;
+    
 }
 .subtitletext{
     font-size: 3.4em;
