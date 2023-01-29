@@ -7,8 +7,12 @@
     <title>Strona Główna | StiwekMC</title>
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <img src="img/icon.png" alt="">
         <h1>
@@ -17,13 +21,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">HOME</a>
+                    <a href="" style="color: #525252;">HOME</a>
                 </li>
                 <li>
-                    <a href="https://stiwekmcpl-store.tebex.io">SKLEP</a>
+                    <a href="https://discord.gg/NrY24bKSgX">DISCORD</a>
                 </li>
                 <li>
-                    <a href="http://dc.stiwekmc.store">DISCORD</a>
+                    <a href="https://mapa.stiwekmc.pl">MAPA EARTHSMP</a>
                 </li>
                 <li>
                     <a href="pages/rangi.html">RANGI</a>
@@ -31,26 +35,51 @@
             </ul>
         </nav>
     </header>
-    <main id="home">
-        <h1>StiwekMC.pl</h1>
-        <p>Sieć serwerów minecraft dla graczy non premium.</p>
-    </main>
-    <article>
-        <section class="menu">
-            <a href="https://stiwekmcpl-store.tebex.io">SKLEP</a>
-            <a href="https://discord.gg/Gsyrdjkwz9" class="discord">DISCORD</a>
-            <a href="https://www.tiktok.com/@stiwekmcpl" class="tiktok">TIKTOK</a>
+    <main id="home" data-aos="zoom-in-right">
+        <section class="title">
+            <h1 class="titletext">Stiwek<span class="mc">MC.PL</span></h1>
+            <p>SIEĆ SERWERÓW MINECRAFT DLA GRACZY NON-PREMIUM.</p>
         </section>
-        <a href="#minibox"><img src="img/expand.png" class="icon" alt=""></a>
-        <section class="thumbnail" id="minibox">
-            <div class="thumbimg mini" onclick="window.open('https://stiwekmcpl-store.tebex.io/category/minirangi')">
-                <h1>MiniBox (1.17 - 1.19)</h1>
+        <section class="menu">
+            <a href="https://discord.gg/pGzKNkbDmF" class="shop">Sklep</a>
+            <a href="https://discord.gg/NrY24bKSgX" class="discord">Discord</a>
+            <a href="https://www.tiktok.com/@stiwekmcpl" class="tiktok">TikTok</a>
+        </section>
+        <section class="zalety" id="zalety">
+            <a href="#zalety"><img src="img/expand.png" class="icon" alt=""></a>
+            <h2 class="subtitletext" style="color: #2a1c0c">Dlaczego akurat StiwekMC?</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h1>Innowacje</h1>
+                    <p>Ciekawe tryby z wieloma nowościami, których nie spotkasz na innych serwerach. Z każdym dniem poszerzamy swoje umiejętności, aby podnieść jakość rozgrywki na serwerze.</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Aktualizacje</h1>
+                    <p>Częste aktualizacje z nowymi funkcjami, aby rozgrywka nie była nudna. Oczywiście wszystko w granicach naszych możliwości!</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Atmosfera</h1>
+                    <p>Aktywna administracja i chętna pomoc to podstawa. Stawiamy na miłą atmosferę i dobre odczucia graczy, oczywiście z zachowaną wolnością słowa na chacie.</p>
+                </div>
             </div>
         </section>
-    </article>
-    <footer>
-        <a href="#home">StiwekMC.pl</a>
+        <section class="tryb" id="minibox" data-aos="fade-up">
+            <h2 class="subtitletext"><span style="color: #2a1c0c">Nasze</span> TRYBY</h2>
+            <div class="trybimg mini">
+                <h1 class="trybtext">MiniBox (1.17 - 1.19)</h1>
+            </div>
+            <div class="trybimg earth">
+                <h1 class="trybtext">EarthSMP (1.17 - 1.19)</h1>
+            </div>
+        </section>
+    </main>
+    <footer data-aos="fade-up" class="footer">
+        <a href="#home">StiwekMC.pl | Made by Nahciak#1537</a>
     </footer>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
 <!-- Nahciak -->
