@@ -5,49 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona Główna | StiwekMC</title>
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="img/stiwekmc.webp">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
-        <img src="img/icon.png" alt="">
+        <img src="img/stiwekmc.webp" alt="">
         <h1>
-            <a href="">StiwekMC</a>
+            <a href="">StiwekMC.pl</a>
         </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="" style="color: #525252;">HOME</a>
+                    <a href="" style="color: #525252;">START</a>
                 </li>
                 <li>
-                    <a href="https://discord.gg/NrY24bKSgX">DISCORD</a>
+                    <a href="https://discord.gg/57QnXYFt7A">DISCORD</a>
                 </li>
                 <li>
-                    <a href="https://mapa.stiwekmc.pl">EARTHSMP</a>
+                    <a href="https://mapa.stiwekmc.pl">MAPA</a>
                 </li>
                 <li>
-                    <a href="pages/rangi.html">RANGI</a>
+                    <a href="https://vishop.pl/shop/4427/server/5390">SKLEP</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main id="home" data-aos="zoom-in-right">
-        <section class="title">
-            <h1 class="titletext">Stiwek<span class="mc">MC.PL</span></h1>
-            <p>SIEĆ SERWERÓW MINECRAFT DLA GRACZY NON-PREMIUM.</p>
+    <main id="home">
+        <section class="title" data-aos="fade-up">
+            <h1>Stiwek<span style="color: #FF8600">MC.PL</span></h1>
+            <p>SERWER MINECRAFT EARTHSMP DLA GRACZY NON-PREMIUM.</p>
         </section>
-        <section class="menu">
-            <button onclick="window.open('https://discord.gg/pGzKNkbDmF')" class="shop">Sklep</button>
-            <button href="https://discord.gg/NrY24bKSgX" class="discord">Discord</button>
-            <button href="https://www.tiktok.com/@stiwekmcpl" class="tiktok">TikTok</button>
+        <section class="menu" data-aos="fade-up">
+            <a onclick="copyText()">Skopiuj IP</a>
+            <a href="https://vishop.pl/shop/4427/server/5390">Sklep</a>
+            <a href="https://discord.gg/57QnXYFt7A">Discord</a>
+            <a href="https://www.tiktok.com/@stiwekmc.fp">TikTok</a>
         </section>
-        <section class="zalety" id="zalety">
-            <a href="#zalety"><img src="img/expand.png" class="icon" alt=""></a>
-            <h2 class="subtitletext" style="color: #2a1c0c">Dlaczego akurat StiwekMC?</h2>
+        <a href="#zalety" id="zalety" class="icon"><img src="img/expand.png" alt=""></a>
+        <section class="zalety" data-aos="fade-up">
+            <h2 class="subtitletext" style="color: #2a1c0c">Dlaczego akurat <span style="color: #FF8600">StiwekMC</span>?</h2>
             <div class="grid-container">
                 <div class="grid-item">
                     <h1>Innowacje</h1>
@@ -63,24 +65,48 @@
                 </div>
             </div>
         </section>
-        <section class="tryb" id="minibox" data-aos="fade-up">
-            <h2 class="subtitletext"><span style="color: #2a1c0c">Nasze</span> TRYBY</h2>
-            <div class="trybimg mini">
-                <h1 class="trybtext">BoxPvP (1.17 - 1.19)</h1>
-            </div>
+        <section class="tryb" data-aos="fade-up">
+            <h2 class="subtitletext">Nasze <span style="color: #FF8600">TRYBY</span></h2>
             <div class="trybimg earth">
-                <h1 class="trybtext">EarthSMP (1.17 - 1.19)</h1>
+                <h1>EarthSMP (1.17 - 1.20)</h1>
             </div>
         </section>
     </main>
-    <footer data-aos="fade-up" class="footer">
-        <a href="#home">StiwekMC.pl | Made by Nahciak#1537</a>
+    <footer class="footer">
+        <a href="#home">StiwekMC.pl | Made by @nahciak</a>
     </footer>
-    <script src="bower_components/aos/dist/aos.js"></script>
     <script>
-        AOS.init();
+        function copyText() {
+            var text = "StiwekMC.pl";
+
+            // Tworzenie tymczasowego elementu textarea
+            var textarea = document.createElement("textarea");
+            textarea.value = text;
+
+            // Dodanie elementu textarea do dokumentu
+            document.body.appendChild(textarea);
+
+            // Zaznaczenie tekstu w elemencie textarea
+            textarea.select();
+
+            // Kopiowanie tekstu do schowka
+            document.execCommand("copy");
+
+            // Usunięcie tymczasowego elementu textarea
+            document.body.removeChild(textarea);
+        }
     </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 10, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: true, // whether elements should animate out while scrolling past them
+        });
+      </script>
 </body>
 </html>
 <!-- Nahciak -->
-<!-- This project is licensed under the terms of the GNU Affero General Public License v3.0 license. See more at https://github.com/BozydHacker/bozydhacker.github.io/blob/main/LICENSE.md -->
