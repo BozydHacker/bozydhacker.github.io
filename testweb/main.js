@@ -93,7 +93,7 @@ function check() {
 
     if (typeForm == deuList[i] || typeForm == deuNonList[i]) {
         document.getElementById("correctText").style.color = "green";
-        correctText.textContent = "Prawidłowo";
+        correctText.textContent = "Prawidłowo - " + deuList[i];
         new Promise(resolve => setTimeout(resolve, 1000)).then(() => next());
     }
     else {
