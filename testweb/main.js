@@ -71,10 +71,10 @@ const next = async () => {
     i++;
 
     if (polList.length-1 >= i && deuList.length-1 >= i && deuNonList.length-1 >= i) {
-        const thirdElement = polList[i];
-        outputElement.textContent = thirdElement;
+        outputElement.textContent = polList[i];
     } else {
-        outputElement.textContent = 'Not enough elements in the arrays';
+        outputElement.textContent = polList[i];
+        i = -1;
   }
 };
 
