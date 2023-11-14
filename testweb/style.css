@@ -53,17 +53,3 @@ body{
 #wrongText{
     color: red;
 }
-.checkbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0px 20px 0px;
-    background-color: white;
-    border-radius: 10px;
-}
-.checkbox input{
-    width: 10%;
-}
-.checkbox b{
-    height: 30px;
-}

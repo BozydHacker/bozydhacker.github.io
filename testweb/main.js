@@ -70,17 +70,11 @@ const load = async () => {
     deuList = await loadTextFile('deu.txt');
     deuNonList = await loadTextFile('deu_non.txt');
 
-    if (document.getElementById("random").checked){
-        let random = .5 - Math.random();
-        polList.sort( () => random);
-        deuList.sort( () => random);
-        deuNonList.sort( () => random);
-    }
-
     next();
 } 
 
 const back = async () => {
+    answerList[i] = outForm.value;
     if (i > 0)
         i--;
     if (i >= answerList.length || answerList[i] == undefined)
@@ -95,6 +89,9 @@ const next = async () => {
     if (i >= answerList.length)
         answerList.push("");
     answerList[i] = outForm.value;
+
+    if (i >= answerList.length || answerList[i] == undefined)
+        outForm.value = "";
 
     outForm.value = "";
     correctText.textContent = "";
