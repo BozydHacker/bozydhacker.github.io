@@ -45,6 +45,7 @@ let polList = [];
 let deuList = [];
 let deuNonList = [];
 
+let answerList = []
 let wrongList = [];
 
 const displayButton = document.getElementById('btn');
@@ -79,7 +80,21 @@ const load = async () => {
     next();
 } 
 
+const back = async () => {
+    if (i > 0)
+        i--;
+    if (i >= answerList.length || answerList[i] == undefined)
+        outForm.value = "";
+    else
+        outForm.value = answerList[i];
+    correctText.textContent = "";
+    outputElement.textContent = polList[i];
+};
+
 const next = async () => {
+    if (i >= answerList.length)
+        answerList.push("");
+    answerList[i] = outForm.value;
 
     outForm.value = "";
     correctText.textContent = "";
@@ -90,10 +105,13 @@ const next = async () => {
     }
     else {
         let wrongText = document.getElementById('wrongText');
+        wrongText.innerHTML = "";
         outputElement.textContent = polList[i];
         i = -1;
         for (let j = wrongList.length-1; j > -1; j--) {
             if (`${wrongList[j]}`.slice(-5, -1) == `${wrongList[j+1]}`.slice(-5, -1))
+                return;
+            if (wrongList.length < 1)
                 return;
             if (wrongText.innerHTML == "")
                 wrongText.innerHTML += wrongList[j]
