@@ -41,8 +41,11 @@
 
 let i = -1;
 
-let inList = [];
-let outList = [];
+let polList = [];
+let deuList = [];
+let deuNonList = [];
+
+let wrongList = [];
 
 const displayButton = document.getElementById('btn');
 const outputElement = document.getElementById('displayText');
@@ -61,10 +64,22 @@ const loadTextFile = async (file) => {
   }
 };
 
-const next = async () => {
+const load = async () => {
     polList = await loadTextFile('pol.txt');
     deuList = await loadTextFile('deu.txt');
     deuNonList = await loadTextFile('deu_non.txt');
+
+    if (document.getElementById("random").checked){
+        let random = .5 - Math.random();
+        polList.sort( () => random);
+        deuList.sort( () => random);
+        deuNonList.sort( () => random);
+    }
+
+    next();
+} 
+
+const next = async () => {
 
     outForm.value = "";
     correctText.textContent = "";
@@ -72,10 +87,20 @@ const next = async () => {
 
     if (polList.length-1 >= i && deuList.length-1 >= i && deuNonList.length-1 >= i) {
         outputElement.textContent = polList[i];
-    } else {
+    }
+    else {
+        let wrongText = document.getElementById('wrongText');
         outputElement.textContent = polList[i];
         i = -1;
-  }
+        for (let j = wrongList.length-1; j > -1; j--) {
+            if (`${wrongList[j]}`.slice(-5, -1) == `${wrongList[j+1]}`.slice(-5, -1))
+                return;
+            if (wrongText.innerHTML == "")
+                wrongText.innerHTML += wrongList[j]
+            else
+                wrongText.innerHTML += "<br>" + wrongList[j];
+        }
+    }
 };
 
 function enterCheck(ele) {
@@ -99,6 +124,7 @@ function check() {
     else {
         document.getElementById("correctText").style.color = "red";
         correctText.textContent = "Źle - " + deuList[i];
+        wrongList.push(polList[i] + " - " + typeForm + " (" + deuList[i] + ") ");
     }
 }
 
