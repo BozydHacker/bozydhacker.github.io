@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahciak - Niemiecki</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body onload="load()">
+    <section class="container">
+        <p id="displayText"></p>
+        <input type="text" id="inputTranslated" onkeydown="enterCheck(this)" placeholder="Wpisz tłumaczenie" autofocus>
+        <section class="buttons">
+            <button onclick="check()">Losuj</button>
+        </section>
+        <p id="correctText"></p>
+        <p id="wrongText"></p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
