@@ -42,10 +42,6 @@ const next = async () => {
     i = Math.floor(Math.random() * polList.length)
 
     outputElement.textContent = polList[i];
-    if (wrongText.innerHTML == "")
-        wrongText.innerHTML += polList[i] + " - " + typeForm + " (" + deuList[i] + ") "
-    else
-        wrongText.innerHTML += "<br>" + polList[i] + " - " + typeForm + " (" + deuList[i] + ") ";
 };
 
 function enterCheck(ele) {
@@ -69,6 +65,10 @@ function check() {
     else {
         document.getElementById("correctText").style.color = "red";
         correctText.textContent = "Źle - " + deuList[i];
+        if (wrongText.innerHTML == "")
+            wrongText.innerHTML += polList[i] + " - " + typeForm + " (" + deuList[i] + ") "
+        else
+            wrongText.innerHTML += "<br>" + polList[i] + " - " + typeForm + " (" + deuList[i] + ") ";
     }
 }
 
