@@ -1,46 +1,114 @@
-miejsce pracy
-praca biurowa
-praca wakacyjna
-praca dodatkowa
-praca sezonowa
-praca nielegalna
-praca w niepełnym wymiarze godzin
-praca w pełnym wymiarze godzin
-uciążliwy, wyczerpujący
-łatwy, prosty
-umysłowy
-dobrze płatny
-źle płatny
-fizyczny
-twórczy
-samodzielny
-elastyczny
-współpracujący w grupie
-mocno zmotywowany
-niezawodny
-pracować jako
-dostać pracę
-ubiegać się o pracę
-stracić pracę
-być bezrobotnym
-zbierać doświadczenia
-zmieniać pracę
-pracować w ciągu dnia
-pracować w nadgodzinach
-podpisać umowę o pracę
-w mowie i piśmie
-wymagania
-urząd pracy
-umowa o pracę
-ubiegający się o pracę
-list motywacyjny
-obsługa komputera
-doświadczenie
-znajomość języków obcych
-prawo jazdy
-życiorys
-praktyki
-świadectwo szkolne
-ogłoszenie o pracy
-elastyczność
-umiejętność pracy w grupie
+kostka
+ramię, ręka
+pogryziony przez psa
+pogryziony przez szczura
+ukąszony przez owada
+ukąszony przez węża
+zatkany nos
+pupa, siedzenie
+złamanie
+złamać komuś serce
+złamać rękę
+złamać nogę
+złamać kciuk
+złamać palec u nogi
+oparzenie
+oparzyć sobie palce
+oparzyć sobie dłoń
+oparzyć sobie język
+przypalić sobie włosy
+policzek
+klatka piersiowa
+broda
+czesać włosy
+skaleczyć się w palec
+zwichnąć biodro
+zwichnąć kolano
+zwichnąć bark
+zwichnąć kciuk
+łokieć
+brew
+palec (u ręki)
+paznokieć (u ręki)
+stopa
+stopy
+czoło
+mieć zawroty głowy
+pomóc komuś
+mieć podbite oko
+mieć stłuczenie
+mieć skaleczenie
+kogoś boli palec
+nie mogłem uwierzyć własnym oczom
+kolano
+zrywać boki ze śmiechu
+usta
+szyja
+na końcu języka
+szturchnąć, trącić
+nabierać kogoś
+żebro
+bark
+kręgosłup
+skręcić kostkę
+skręcić stopę
+skręcić kolano
+skręcić nadgarstek
+udo
+kciuk
+palec (u nogi)
+talia
+nadgarstek
+krwawić
+krople do oczu
+czuć się dobrze
+gorączka
+grypa
+kupić
+katar sienny
+odchylić głowę
+pochylić głowę
+krwotok z nosa
+przykleić plaster na
+przyłożyć lód do
+użądlenie
+zatrzymać krwawienie
+oparzenie słoneczne
+brać tabletki
+brać tabletki przeciwhistaminowe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
