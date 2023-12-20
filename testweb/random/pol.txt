@@ -1,78 +1,24 @@
-kostka
-ramię, ręka
-pogryziony przez psa
-pogryziony przez szczura
-ukąszony przez owada
-ukąszony przez węża
-zatkany nos
-pupa, siedzenie
-złamanie
-złamać komuś serce
-złamać rękę
-złamać nogę
-złamać kciuk
-złamać palec u nogi
-oparzenie
-oparzyć sobie palce
-oparzyć sobie dłoń
-oparzyć sobie język
-przypalić sobie włosy
-policzek
-klatka piersiowa
-broda
-czesać włosy
-skaleczyć się w palec
-zwichnąć biodro
-zwichnąć kolano
-zwichnąć bark
-zwichnąć kciuk
-łokieć
-brew
-palec (u ręki)
-paznokieć (u ręki)
-stopa
-stopy
-czoło
-mieć zawroty głowy
-pomóc komuś
-mieć podbite oko
-mieć stłuczenie
-mieć skaleczenie
-kogoś boli palec
-nie mogłem uwierzyć własnym oczom
-kolano
-zrywać boki ze śmiechu
-usta
-szyja
-na końcu języka
-szturchnąć, trącić
-nabierać kogoś
-żebro
-bark
-kręgosłup
-skręcić kostkę
-skręcić stopę
-skręcić kolano
-skręcić nadgarstek
-udo
-kciuk
-palec (u nogi)
-talia
-nadgarstek
-krwawić
-krople do oczu
-czuć się dobrze
-gorączka
-grypa
-kupić
-katar sienny
-odchylić głowę
-pochylić głowę
-krwotok z nosa
-przykleić plaster na
-przyłożyć lód do
-użądlenie
-zatrzymać krwawienie
-oparzenie słoneczne
-brać tabletki
-brać tabletki przeciwhistaminowe
+beginnen
+bitten
+bleiben
+bringen
+denken
+dürfen
+essen
+fahren
+fliegen
+geben
+gehen
+haben
+hängen
+heißen
+helfen
+kennen
+kommen
+können
+laufen
+lesen
+liegen
+mögen
+müssen
+nehmen
