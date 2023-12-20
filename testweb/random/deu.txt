@@ -1,78 +1,24 @@
-ankle
-arm
-bitten by a dog
-bitten by a rat
-bitten by an insect
-bitten by a snake
-blocked nose
-bottom
-break
-break sb's heart
-break your arm
-break your leg
-break your thumb
-break your toe
-burn
-burn your fingers
-burn your hand
-burn your tongue
-burn your hair
-cheek
-chest
-chin
-comb your hair
-cut your finger
-dislocate your hip
-dislocate your knee
-dislocate your shoulder
-dislocate your thumb
-elbow
-eyebrow
-finger
-fingernail
-foot
-feet
-forehead
-get dizzy
-give sb a hand
-have a black eye
-have a bruise
-have a cut
-have a sore finger
-I couldn't believe my eyes
-knee
-laugh your head off
-lips
-neck
-on the tip of your tongue
-poke
-pull sb's leg
-rib
-shoulder
-spine
-sprain your ankle
-sprain your foot
-sprain your knee
-sprain your wrist
-thigh
-thumb
-toe
-waist
-wrist
-bleed
-eye drops
-feel well
-fever
-flu
-get
-hay fever
-look up
-look down
-nosebleed
-put a plaster on
-put ice on
-sting
-stop the blood flowing
-sunburn
-take tablets
-take antihistamine tablets
+begonnen
+gebeten
+geblieben
+gebracht
+gedacht
+gedurft
+gegessen
+gefahren
+geflogen
+gegeben
+gegangen
+gehabt
+gehangen
+geheißen
+geholfen
+gekannt
+gekommen
+gekonnt
+gelaufen
+gelesen
+gelegen
+gemocht
+gemusst
+genommen
